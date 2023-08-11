@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Kellen Mace</title>
+    <link rel="stylesheet" href="global.css" />
+    <style @raw="getBundle('css')" webc:keep></style>
+  </head>
+  <body>
+    <site-header></site-header>
+    <main @raw="content"></main>
+  </body>
+</html>

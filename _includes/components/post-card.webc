@@ -1,0 +1,14 @@
+<article>
+  <!-- <script webc:type="js">
+    `<div>${JSON.stringify(this)}</div>`;
+  </script> -->
+  <a :href="url"><h2 @text="title"></h2></a>
+</article>
+
+<style webc:scoped>
+  article {
+    border: 2px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+  }
+</style>

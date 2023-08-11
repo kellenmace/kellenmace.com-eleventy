@@ -1,0 +1,26 @@
+---
+layout: "layout.webc"
+---
+
+<div>
+  <h1>Blog</h1>
+  <div class="posts-list">
+    <script webc:type="js">
+      const sortDyDateDesc = (a, b) => new Date(b.date) - new Date(a.date);
+      const postsSortedDesc = collections.post.sort(sortDyDateDesc);
+      postsSortedDesc
+        .map(
+          (post) =>
+            `<post-card @url="${post.url}" @title="${post.data.title}"></post-card>`
+        )
+        .join("");
+    </script>
+  </div>
+</div>
+
+<style webc:scoped>
+  .posts-list {
+    display: grid;
+    grid-gap: 20px;
+  }
+</style>

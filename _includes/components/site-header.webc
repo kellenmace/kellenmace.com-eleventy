@@ -1,0 +1,11 @@
+<header>
+  <a href="/">Home</a>
+  <a href="/blog">Blog</a>
+</header>
+
+<style webc:scoped>
+  header {
+    padding: 40px;
+    background-color: #eee;
+  }
+</style>
