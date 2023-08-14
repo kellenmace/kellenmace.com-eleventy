@@ -1,7 +1,4 @@
 <article>
-  <!-- <script webc:type="js">
-    `<div>${JSON.stringify(this)}</div>`;
-  </script> -->
   <a :href="url"><h2 @text="title"></h2></a>
 </article>
 

@@ -5,6 +5,21 @@
     <title>Kellen Mace</title>
     <link rel="stylesheet" href="global.css" />
     <style @raw="getBundle('css')" webc:keep></style>
+    <link rel="stylesheet" href="https://unpkg.com/open-props" webc:keep />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/open-props/normalize.min.css"
+      webc:keep
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/open-props/buttons.min.css"
+      webc:keep
+    />
+    <script webc:type="js">
+      const isPost = this.$data.tags?.[0] === "post";
+      isPost ? `<link rel="stylesheet" href="prism.css" />` : "";
+    </script>
   </head>
   <body>
     <site-header></site-header>
