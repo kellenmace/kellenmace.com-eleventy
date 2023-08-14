@@ -1,6 +1,6 @@
 # Kellen Mace
 
-This is the repo for kellenmace.com.
+Repo for [kellenmace.com](https://kellenmace.com/).
 
 ## Tech Stack
 
