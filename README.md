@@ -11,5 +11,5 @@ This is the repo for kellenmace.com.
 
 ## Commands
 
-Build project: `npx @11ty/eleventy`
-Build & serve project: `npx @11ty/eleventy --serve`
+- Build project: `npx @11ty/eleventy`
+- Build & serve project: `npx @11ty/eleventy --serve`
